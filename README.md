@@ -9,7 +9,7 @@ Installation
 ------------
 
 Prezto will work with any recent release of Zsh, but the minimum recommended
-version is 4.3.10.
+version is 4.3.11.
 
   1. Launch Zsh:
 
@@ -38,6 +38,13 @@ version is 4.3.10.
 If you are not able to find certain commands after switching to *Prezto*,
 modify the `PATH` variable in *~/.zshenv* then open a new Zsh terminal
 window or tab.
+
+Updating
+--------
+
+Pull the latest changes and update submodules.
+
+    git pull && git submodule update --init --recursive
 
 Usage
 -----
