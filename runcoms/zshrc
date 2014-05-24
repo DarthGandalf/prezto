@@ -11,4 +11,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
-
+alias mtr='mtr -t'
+alias qg='qgit4 --all'
