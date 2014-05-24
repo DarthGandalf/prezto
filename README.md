@@ -36,7 +36,7 @@ version is 4.3.11.
 ### Troubleshooting
 
 If you are not able to find certain commands after switching to *Prezto*,
-modify the `PATH` variable in *~/.zshenv* then open a new Zsh terminal
+modify the `PATH` variable in *~/.zprofile* then open a new Zsh terminal
 window or tab.
 
 Updating
@@ -85,7 +85,8 @@ License
 
 (The MIT License)
 
-Copyright (c) 2009-2012 Robby Russell, Sorin Ionescu, and contributors.
+Copyright (c) 2009-2011 Robby Russell and contributors.
+Copyright (c) 2011-2014 Sorin Ionescu and contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
