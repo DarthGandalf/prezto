@@ -50,7 +50,8 @@ function prompt_steeef_setup {
       "%F{161}" # Hotpink
       "%F{118}" # Limegreen
     )
-  else
+  fi
+  #else
     _prompt_steeef_colors=(
       "%F{cyan}"
       "%F{yellow}"
@@ -58,7 +59,7 @@ function prompt_steeef_setup {
       "%F{red}"
       "%F{green}"
     )
-  fi
+  #fi
 
   # Formats:
   #   %b - branchname
