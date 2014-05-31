@@ -5,3 +5,7 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+if [[ $(tty) = /dev/tty2 ]]; then
+	exec env IN_FBTERM=yes fbterm
+fi
+
