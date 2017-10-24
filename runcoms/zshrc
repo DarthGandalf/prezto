@@ -12,4 +12,4 @@ fi
 
 # Customize to your needs...
 alias mtr='mtr -t'
-alias qg='qgit4 --all'
+alias qg='qgit --all'
